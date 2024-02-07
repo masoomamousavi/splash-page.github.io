@@ -10,12 +10,12 @@ body {
     background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
 }
 
-div.container {
+/* div.container {
     position: relative;
     width: 80%;
-    height: 1320px;
+    height: auto;
     margin: auto;
-}
+} */
 
 /* styling the texts */
 h1.title {
@@ -29,6 +29,10 @@ h1.title {
     line-height: 68px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+div.texts {
+    padding-left: 60px;
 }
 
 p.text {
@@ -46,19 +50,22 @@ p.text {
 
 /* styling of imags */
 img.logo {
-    position: absolute;
     width: 193px;
     height: 47.64px;
-    top: 50.25px;
-    left: 221px;
 }
 
-/* 
+
 div.nav {
     display: flex;
-    height: 150px;
-    background-color: #ACBB78;
-} */
+    align-items: center;
+    height: 160px;
+}
+
+div.now .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 div.app-btn {
     position: absolute;
@@ -144,18 +151,18 @@ div.main-img-container img {
 
 /* background toggles */
 .background-toggles {
-    position: absolute;
-    top: 70px;
     display: flex;
-    left: 0px;
-    text-align: right;
     gap: 13px;
+    direction: rtl;
 }
+
 
 
 .background-toggles>div {
     height: 30px;
     width: 30px;
+
+    display: inline-block;
     border-radius: 5px;
     box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
     cursor: pointer;
@@ -163,9 +170,6 @@ div.main-img-container img {
 
 /* backgrounds */
 .background-1 {
-    /* background: #636363;
-    background: -webkit-linear-gradient(to bottom, #a2ab58, #636363);
-    background: linear-gradient(to bottom, #a2ab58, #636363); */
     background-color: #ebece1;
     background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23877c61' fill-opacity='0.19'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
