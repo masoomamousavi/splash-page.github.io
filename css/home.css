@@ -1,0 +1,174 @@
+/* main styles */
+html {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    background: #54575A;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+}
+
+div.container {
+    position: relative;
+    width: 1440px;
+    height: 1320px;
+    margin: auto;
+}
+
+/* styling the texts */
+h1.title {
+    position: absolute;
+    width: 458px;
+    height: 135px;
+    top: 236px;
+    left: 221px;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+p.text {
+    position: absolute;
+    width: 394px;
+    height: 96px;
+    top: 403px;
+    left: 221px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* styling of imags */
+img.logo {
+    position: absolute;
+    width: 193px;
+    height: 47.64px;
+    top: 50.25px;
+    left: 221px;
+}
+
+div.app-btn {
+    position: absolute;
+    top: 531px;
+    left: 221px;
+}
+
+div.app-btn img {
+    width: 138.44px;
+    height: 46.28px;
+}
+
+
+div.google-play-btn {
+    position: absolute;
+    top: 531px;
+    left: 381.81px;
+}
+
+div.google-play-btn img {
+    width: 156.19px;
+    height: 46.28px;
+}
+
+div.main-img-container {
+    position: absolute;
+    width: 535.72px;
+    height: 309.27px;
+    top: 229.73px;
+    left: 683.28px;
+    padding: 0px, 0px, 0px, 0px
+}
+
+div.main-img-container img {
+    height: 207.43px;
+    object-fit: cover;
+}
+
+.product-img {
+    position: absolute;
+    width: 224px;
+    height: 222px;
+    top: 1100px;
+    left: 737px;
+    object-fit: cover;
+}
+
+.profile-img {
+    position: absolute;
+    width: 224px;
+    height: 444px;
+    top: 620px;
+    left: 737px;
+    object-fit: cover;
+}
+
+.orders-img {
+    position: absolute;
+    width: 224px;
+    height: 470px;
+    top: 820px;
+    left: 479px;
+    object-fit: cover;
+}
+
+.cart-img {
+    position: absolute;
+    width: 224px;
+    height: 222px;
+    top: 1100px;
+    left: 200px;
+    object-fit: cover;
+}
+
+.home-img {
+    position: absolute;
+    width: 224px;
+    height: 470px;
+    top: 820px;
+    left: 995px;
+    object-fit: cover;
+}
+
+/* background toggles */
+.background-toggles {
+    position: absolute;
+    top: 70px;
+    right: 150px;
+    display: flex;
+    gap: 13px;
+}
+
+
+.background-toggles>div {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* backgrounds */
+.background-1 {
+    /* background: #636363;
+    background: -webkit-linear-gradient(to bottom, #a2ab58, #636363);
+    background: linear-gradient(to bottom, #a2ab58, #636363); */
+    background-color: #ebece1;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23877c61' fill-opacity='0.19'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background-2 {
+    background-color: #dddbe2;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239c97ac' fill-opacity='0.2' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background-3 {
+    background: #F7F8F8;
+    background: -webkit-linear-gradient(to top, #ACBB78, #F7F8F8);
+    background: linear-gradient(to top, #ACBB78, #F7F8F8);
+}
