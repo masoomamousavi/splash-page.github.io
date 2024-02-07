@@ -12,7 +12,7 @@ body {
 
 div.container {
     position: relative;
-    width: 1440px;
+    width: 80%;
     height: 1320px;
     margin: auto;
 }
@@ -20,11 +20,11 @@ div.container {
 /* styling the texts */
 h1.title {
     position: absolute;
-    width: 458px;
+    width: 60vh;
     height: 135px;
     top: 236px;
     left: 221px;
-    font-size: 64px;
+    font-size: 8.5vh;
     font-weight: 500;
     line-height: 68px;
     letter-spacing: 0em;
@@ -33,11 +33,11 @@ h1.title {
 
 p.text {
     position: absolute;
-    width: 394px;
+    width: 60vh;
     height: 96px;
     top: 403px;
     left: 221px;
-    font-size: 20px;
+    font-size: 3vh;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0em;
@@ -52,6 +52,13 @@ img.logo {
     top: 50.25px;
     left: 221px;
 }
+
+/* 
+div.nav {
+    display: flex;
+    height: 150px;
+    background-color: #ACBB78;
+} */
 
 div.app-btn {
     position: absolute;
@@ -139,8 +146,9 @@ div.main-img-container img {
 .background-toggles {
     position: absolute;
     top: 70px;
-    right: 150px;
     display: flex;
+    left: 0px;
+    text-align: right;
     gap: 13px;
 }
 
